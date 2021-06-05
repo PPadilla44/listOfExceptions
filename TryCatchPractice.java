@@ -14,7 +14,7 @@ public class TryCatchPractice{
             try{
                 Integer castedValue = (Integer) myList.get(i);
             } catch (ClassCastException e) {
-                System.out.println(" Index: " + i + " Value: " + myList.get(i) + "\tcannot be casted to an Integer");
+                System.out.println("Index: " + i + " Value: " + myList.get(i) + "\tcannot be casted to an Integer");
             }
         }
             
