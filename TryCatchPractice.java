@@ -13,8 +13,8 @@ public class TryCatchPractice{
         for(int i = 0; i < myList.size(); i++) {
             try{
                 Integer castedValue = (Integer) myList.get(i);
-            } catch (Exception e) {
-                System.err.println(" Index: " + i + " Value: " + myList.get(i) + "\tcannot be casted to an Integer");
+            } catch (ClassCastException e) {
+                System.out.println(" Index: " + i + " Value: " + myList.get(i) + "\tcannot be casted to an Integer");
             }
         }
             
